@@ -12,12 +12,12 @@ it helps to explain how the communication is done between to devices, it has div
 ![[Pasted image 20260829165703.png]]
 ## Important components
 
-| Layer                  | Working                                                                                 | Protocol Data Unit (PDU)         | Protocols                     |
-| ---------------------- | --------------------------------------------------------------------------------------- | -------------------------------- | ----------------------------- |
-| [[Physical Layer]]     | Establishes physical connection between devices and transmits raw bits over the medium. | Bits                             | USB, SONET/SDH                |
-| [[Data Link Layer]]    | Provides node-to-node delivery and error detection/correction.                          | Frames                           | Ethernet, PPP, PPTP           |
-| [[Network Layer]]      | Handles logical addressing and routing of data between different networks.              | Packets                          | IP, ICMP, IGMP, OSPF          |
-| [[Transport Layer]]    | Ensures end-to-end communication, segmentation, flow control, and error handling.       | Segments (TCP) / Datagrams (UDP) | TCP, UDP, SCTP                |
-| [[Session Layer]]      | Establishes, manages, and terminates communication sessions between applications.       | Data                             | RPC                           |
-| [[Presentation Layer]] | Translates, encrypts, and formats data for the application layer.                       | Data                             | TLS/SSL, MIME                 |
-| [[Application layer]]  | Provides network services directly to end-user applications.                            | Data                             | FTP, SMTP, DNS, DHCP, NetBIOS |
+| Layer                                            | Working                                                                                 | Protocol Data Unit (PDU)         | Protocols                     |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------- | -------------------------------- | ----------------------------- |
+| [Physical Layer](../Physical%20Layer.md)         | Establishes physical connection between devices and transmits raw bits over the medium. | Bits                             | USB, SONET/SDH                |
+| [Data Link Layer](../Data%20Link%20Layer.md)     | Provides node-to-node delivery and error detection/correction.                          | Frames                           | Ethernet, PPP, PPTP           |
+| [Network Layer](../Network%20Layer.md)           | Handles logical addressing and routing of data between different networks.              | Packets                          | IP, ICMP, IGMP, OSPF          |
+| [Transport Layer](../Transport%20Layer.md)       | Ensures end-to-end communication, segmentation, flow control, and error handling.       | Segments (TCP) / Datagrams (UDP) | TCP, UDP, SCTP                |
+| [Session Layer](../Session%20Layer.md)           | Establishes, manages, and terminates communication sessions between applications.       | Data                             | RPC                           |
+| [Presentation Layer](../Presentation%20Layer.md) | Translates, encrypts, and formats data for the application layer.                       | Data                             | TLS/SSL, MIME                 |
+| [Application layer](../Application%20layer.md)   | Provides network services directly to end-user applications.                            | Data                             | FTP, SMTP, DNS, DHCP, NetBIOS |
