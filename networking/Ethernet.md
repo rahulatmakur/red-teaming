@@ -30,4 +30,4 @@ Maximum transmission unit largest size of packet you can send over the network
 - ARP attack :
 	 sending fake ARP messages to link the IP of the legitimate device like router 
 - VLAN hopping:
-	 attack which allows attacker to listen to unauthorised vlan wit =hout going through router
+	 attack which allows attacker to listen to unauthorised vlan without going through router
